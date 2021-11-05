@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hojas de Estilo en Cascada CSS, Frameworks CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=" stylesheet " href=" CSS/estilos.css ">
+    <style>
+        .menu a {
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            color: rgb(252, 252, 252);
+            font-weight: bold;
+            height: 45px;
+        }
+
+        .menu a:hover {
+            background: #9b5fcc;
+            color: #fff;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .menu li {
+            position: relative;
+            text-align: center;
+            width: 100%;
+        }
+
+        .menu li:hover .submenu>li {
+            top: 0;
+            display: block;
+        }
+
+        .submenu li {
+            display: none;
+            position: relative;
+        }
+
+        .submenu {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            background: #4d4bb1;
+            width: 100%;
+        }
+
+        .submenu li:hover {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">Hojas de Estilo en Cascada CSS, Frameworks CSS</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Tema</a>
+                <ul class="submenu">
+                    <li><a href="Tema1.html">Hojas de Estilo en Cascada CSS</a></li>
+                    <li><a href="Tema2.html">Frameworks CSS</a></li>
+                </ul>
+            <li><a href="#">Recursos Digitales</a>
+                <ul class="submenu">
+                    <li><a href="RecursosDig1.html">Recurso 1</a></li>
+                    <li><a href="RecursosDig2.html">Recurso 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Aprendizaje</a>
+                <ul class="submenu">
+                    <li><a href="https://dianacerquera88.github.io/DSW-DianaCerquera/">Actividad 1</a></li>
+                    <li><a href="https://dianacerquera88.github.io/DSW-DianaCerquera/Fase2/desing.html">Actividad 2</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="acerca.html">Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <div class="contenedor">
+        <aside>
+
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD&tabs=timeline&width=360&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="100%" height="100%" style="border:none;overflow:hidden" frameborder="0">
+            </iframe>
+
+        </aside>
+
+        <section class="main">
+            <h2 style="text-align: center; color:#6062c7">Propósito del sitio</h2>
+            <br>
+            <p>El propósito de este sitio web, es brindar información y recursos educativos digitales para el
+                aprendizaje, sobre las hojas de Estilo en Cascada CSS,Hojas de Estilo en Cascada CSS, Frameworks CSS que
+                se pueden aplicar en el momento de la construccuón de sitios web con el obejtivo de darle un aspecto
+                estetico y llamativo al usuario.
+            </p>
+            <br><br>
+            <article>
+                <h3>Frameworks CSS</h3><br><br>
+                <p>
+                    Colección de frameworks CSS, o frameworks de diseño para sitios web, que permiten editar de una
+                    manera
+                    más ágil las hojas de estilo en cascada y crear temas de diseño consistentes. <br>
+                </p><br><br>
+
+                <p>
+                    En esta colección vamos a incluir los frameworks CSS actuales más importantes, los más usados por la
+                    comunidad
+                    y que ofrecen un estilo de desarrollo moderno.
+                </p><br><br>
+                <p>
+                    Lo cierto es que la idea de framework CSS ya viene de lejos y llevan con nosotros más de una década,
+                    pero en la
+                    actualidad pocos son los frameworks que pueden competir en el mercado, ya que este tipo de
+                    herramientas ha evolucionado
+                    mucho, junto con el propio lenguaje, y se han hecho muy completos y sofisticados.
+                </p><br><br>
+                <h4>Lista de Frameworks CSS</h4><br><br>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>Materialize CSS</li>
+                    <li>Tailwind CSS</li>
+                    <li>Foundation</li>
+                    <li>Bulma</li>
+                    <li>Tachyons</li>
+                </ul><br><br>
+                <h6>
+                    Curso de Preprocesadores CSS
+                    <br>
+                    Recuperado de <a
+                        href="https://platzi.com/blog/estado-css-2019/">https://platzi.com/blog/estado-css-2019/</a>
+                </h6><br><br>
+                <center>
+                    <img src="Imagenes/CSS-Frameworks.jpg" alt="html">
+                    <h6>Tomada de:
+                        https://www.tekkiwebsolutions.com/blog/best-css-frameworks-for-web-developers/</h6>
+                </center>
+
+
+            </article><br>
+
+        </section>
+    </div>
+
+    <footer>
+        <h6>Diana Rocio Cerquera<br>
+            Skype:dcerquerac<br>
+            Fecha: 04-Noviembre-2021</h6>
+    </footer>
+
+</body>
+
+</html>
