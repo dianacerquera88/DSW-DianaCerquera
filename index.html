@@ -1,26 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <title>Diseño de Sitios Web</title>
+    <link rel="stylesheet" href="CSS/Estilo.css"/>
 </head>
 <body>
-    <h1>Proyecto de sitio Web 2021 - 16-04 </h1>
-    <h3>
-        <p>
-            Nombre: Diana Rocio Cerquera<br>
-            Programa: Ingenieria de Sistemas<br>
-            Fecha de creación: 30/08/2021<br>
-            Contacto: <br>
-                      <ul>Celular: 3007800452</ul>
-                      <ul>Correo: drcerquerac@unadvirtual.edu.co</ul>
-                      <ul>Skype: dcerquerac</ul>
+    <header>
+        <a href="https://www.unad.edu.co/"> / <img src="Imagenes/Logo_UNAD.png" alt="logo UNAD" /></a>
+        <h1 style="text-align: center;"> Diseño de Sitios WEB</h1>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="Index.html">Inicio</a></li>
+            <li class="boton">
+                <a href="#">Temas</a>
+                <div class="listaDesplegable">
+                    <a href="Tema1.html">Hojas de Estilo en Cascada CSS</a>
+                    <a href="Tema2.html">Frameworks CSS</a>
+                </div>
+            </li>
+            <li class="boton">
+                <a href="#">Recursos Digitales</a>
+                <div class="listaDesplegable">
+                    <a href="RecursosDig1.html">Recurso 1</a>
+                    <a href="RecursosDig2.html">Recurso 2</a>
+                </div>
+            </li>
+            <li class="boton">
+                <a href="#">Aprendizaje</a>
+                <div class="listaDesplegable">
+                    <a href="Aprendizaje1.html">Aprendizaje 1</a>
+                    <a href="Aprendizaje2.html">Aprendizaje 2</a>
+                    
+                </div>
+            </li>
+            <li><a href="acerca.html">Autor</a></li>
+        </ul>
+    </nav>
+    <section class="contenedor">
+        <section class="central">
+            <article>
+                <h3>Introducción</h3>
+                <p>Durante años la creación de sitios web se ha convertido en una herramienta funadamental para los direntes campos, tanto a nivel educativo como laboral entre otros. Los sitios wweb nos permiten compratir y encontar 
+                    información. El propósito de este sitio web, es brindar información y recursos educativos digitales para el aprendizaje,
+                    sobre las hojas de Estilo en Cascada CSS,Hojas de Estilo en Cascada CSS, Frameworks CSS que se pueden
+                    aplicar en el momento de la construccuón de sitios web con el obejtivo de darle un aspecto estetico y llamativo al usuario.</p>
+            </article>
+            <article>
+                <h3>Objetivo</h3>
+                <p>Comprender y aprender la importancia de las herramientas versionamiento así como GIT o GITHUB, que nos permite compartir y publicar archivos en formato HTML5 y CSS3 cuando realizamos un desarrollo de páginas WEB</p>
+            </article>
+        </section>
+        <aside>            
+            <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/UniversidadUNAD">Universidad Nacional Abierta y a Distancia - UNAD Colombia</a>
+                </blockquote>
+            </div>
+        </aside>
+    </section>
+
+    <footer style="max-resolution: max-width:90%">
+           
+        <p >
+            <h3 style="text-align: center;">Diana Rocio Cerquera<br>
+                Skype:dcerquerac<br>
+                Fecha: 08-Diciembre-2021</h3>
         </p>
-    </h3>
-     <p>
-        <a href="Fase2/desing.html">Enlace Actividad Fase 2</a><br>
-        <a href="Fase3/index.html">Enlace Actividad Fase 3</a><br>
-     </p>
+        
+
+    </footer>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0" nonce="UB8WO6A2"></script>
 </body>
 </html>
